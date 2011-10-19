@@ -1,0 +1,1 @@
+Tunnel settings are stored in a data bag (json file example provided). Actions are 'add', 'delete' and 'restart'.

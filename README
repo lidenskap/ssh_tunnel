@@ -1,1 +1,4 @@
-Tunnel settings are stored in a data bag (json file example provided). Actions are 'add', 'delete' and 'restart'.
+Tunnel settings are stored in a data bag (json file example provided). 
+Actions are 'add', 'delete' and 'restart'. FreeBSD support is still under development. 
+No suitable test platform right now so it will take some time to come up with the init script
+but there is almost nothing more to do with the recipe except node[:platform] case and an init-script template.
